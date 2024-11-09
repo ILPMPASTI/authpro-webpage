@@ -5,11 +5,13 @@
 </head>
 <body>
     <!-- Masukkan kod Authpro di bawah ini -->
-   <script type="text/javascript" src="https://www.authpro.com/auth/hamuslimin/?action=pp">
-</script>
+    <script src="https://www.authpro.com/auth.js?id=hamuslimin"></script>
+    
     <!-- Kod JavaScript untuk mengarahkan ke Google Sites -->
     <script>
+        // Fungsi ini dipanggil selepas pengguna berjaya log masuk melalui Authpro
         function authpro_success() {
+            // Gantikan URL di bawah dengan URL Google Sites anda
             window.location.href = "https://sites.google.com/view/institutlatihanpastimalaysia/negeri";
         }
     </script>
